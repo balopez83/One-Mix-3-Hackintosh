@@ -14,7 +14,6 @@ Current Status:
        
 			* Partially Working:
 				1. Shutdown and Restart (I believe this needs some minor tweaks to the clover config file)
-				2.
 					
       * Not-Working:
 				1. Built-in WiFi (will never work, unless future macOS supports)

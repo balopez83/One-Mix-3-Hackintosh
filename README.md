@@ -15,7 +15,7 @@ Current Status:
 			* Partially Working:
 				1. Shutdown and Restart (I believe this needs some minor tweaks to the clover config file)
 					
-      			* Not-Working:
+      		* Not-Working:
 				1. Built-in WiFi (will never work, unless future macOS supports)
 				2. Fingerprint Sensor (Not sure if there is a fix or if it will ever be supported)
 				3. Monitor Sleep, Suspend, Hibernate (common, monitor sleep should be fixable but suspend and hibernate likely will not)

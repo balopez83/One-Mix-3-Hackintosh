@@ -12,7 +12,7 @@ Thank you to hellodeibu who's work on the GPD Pocket 2 took me almost to the fin
 - macOS High Sierra:
   * Untested but first attempt would not boot the installer without framebuffer errors or freezing
 - macOS Mojave:
-  * Can boot installer with this EFI with instructions listed below but not iGPU graphics acceleration yet
+  * Can boot installer with this EFI using the instructions listed below but not iGPU graphics acceleration yet
   * All other features working or WIP are listed below
 - macOS Catalina (BETA):
   * Untested but first attempt would not boot the installer without framebuffer errors or freezing

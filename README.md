@@ -33,7 +33,7 @@ Thank you to Github user hellodeibu who's work on the GPD Pocket 2 took me almos
 - Shutdown & Restart (hangs at black screen, should be a simple fix, WIP)(Sierra issue only)
 - Built-in microSD card reader (unless used as an installer or if you for some reason installed macOS on it)
 - Power Management (I am not confident this is fully functional though is working well enough for now, WIP)
-- USB-3.0 (not yet functioning, WIP)
+- USB-3.0 (temporarily functioning with USB limit patch 10.12.X only, I will work on an SSDT patch for all OS versions later. WIP)
 
 ## Likely never to work
 - Touch Screen (I2C controller, there may be a possibility of getting this to work as there is a group of people working on the I2C controller for the Surface Pro and it may also work for this device)

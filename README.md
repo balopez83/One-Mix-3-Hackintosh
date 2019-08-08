@@ -5,7 +5,7 @@ If you can help fix any of the issues below I would greatly appreciate it. I bel
 
 Thank you to @hellodeibu who's work on the GPD Pocket 2 took me almost to the finish line as well as many others in the Hackintosh community that shared their knowledge and experience through countless forums to make this possible.
 
-## OS Status (Feel free to help with the items below, if we work together we can get this fully functional)
+## OS Status
 
 - macOS Sierra:
   * Nearly perfect just some final touches as listed below

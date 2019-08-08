@@ -20,11 +20,11 @@ Thank you to hellodeibu who's work on the GPD Pocket 2 took me almost to the fin
 
 ## Fully Functional
 
-- Full hardware acceleration (macOS Sierra Only)(High Sierra, Mojave, and Catalina not yet working)
+- Full hardware graphics acceleration (macOS Sierra Only)(High Sierra, Mojave, and Catalina not yet working)
 - Built-in speakers
 - Bluetooth
 - Battery reading and charging recognition
-- Both USB-A and the USB-C port 
+- Both USB-A 2.0 and the USB-C port 
 - CPU Temperature and voltage/wattage reading
 
 ## Non-Functional or Limited Funtion
@@ -33,6 +33,7 @@ Thank you to hellodeibu who's work on the GPD Pocket 2 took me almost to the fin
 - Shutdown & Restart (hangs at black screen, should be a simple fix, WIP)(Sierra issue only)
 - Built-in microSD card reader (unless used as an installer or if you for some reason installed macOS on it)
 - Power Management (I am not confident this is fully functional though is working well enough for now, WIP)
+- USB-3.0 (not yet functioning, WIP)
 
 ## Likely never to work
 - Touch Screen (I2C controller, there may be a possibility of getting this to work as there is a group of people working on the I2C controller for the Surface Pro and it may also work for this device)

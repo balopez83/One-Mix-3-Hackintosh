@@ -16,6 +16,7 @@ Thank you to Github user hellodeibu who's work on the GPD Pocket 2 took me almos
 - macOS Sierra:
   * Nearly perfect just some final touches as listed below
   ![Image of Sierra](https://github.com/balopez83/One-Mix-3-Hackintosh/blob/master/Images/AboutMacSierra.jpg?raw=true)
+  ![Image of Sierra](https://github.com/balopez83/One-Mix-3-Hackintosh/blob/master/Images/SierraMultipleMonitor.png?raw=true)
 
 - macOS High Sierra:
   * Install requires invalid intel identifier, framebuffer errors and freezing with intel GPU enabled.

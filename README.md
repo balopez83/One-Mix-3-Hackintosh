@@ -5,18 +5,27 @@ If you can help fix any of the issues below I would greatly appreciate it. I bel
 
 Thank you to Github user hellodeibu who's work on the GPD Pocket 2 took me almost to the finish line as well as many others in the Hackintosh community that shared their knowledge and experience through countless forums to make this possible.
 
+## Change Log
+
+- Initial Upload
+- Original EFI moved to "EFI v1" folder (no changes have been made to this original EFI folder)
+- New EFI uploaded to "EFI v2" folder (micro HDMI port, & USB-C external video supported with internal video working) tested on Sierra only, may not work yet on High Sierra, Mojave, or Catalina.
+
 ## OS Status
 
 - macOS Sierra:
   * Nearly perfect just some final touches as listed below
   ![Image of Sierra](https://github.com/balopez83/One-Mix-3-Hackintosh/blob/master/Images/AboutMacSierra.jpg?raw=true)
+
 - macOS High Sierra:
-  * Untested but first attempt would not boot the installer without framebuffer errors or freezing
+  * Install requires invalid intel identifier, framebuffer errors and freezing with intel GPU enabled.
+
 - macOS Mojave:
-  * Can boot installer with this EFI using the instructions listed below but not iGPU graphics acceleration yet
-  * All other features working or WIP are listed below
+  * Can boot installer with this EFI using the instructions listed below but no iGPU graphics acceleration yet.
+  * All other features working or WIP are listed below.
+
 - macOS Catalina (BETA):
-  * Untested but first attempt would not boot the installer without framebuffer errors or freezing
+  * Unable to boot the installer without framebuffer errors or freezing. 
     
 
 ## Fully Functional
@@ -33,11 +42,12 @@ Thank you to Github user hellodeibu who's work on the GPD Pocket 2 took me almos
 - Sleep mode (WIP)
 - Shutdown & Restart (hangs at black screen, should be a simple fix, WIP)(Sierra issue only)
 - Built-in microSD card reader (unless used as an installer or if you for some reason installed macOS on it)
-- Power Management (I am not confident this is fully functional though is working well enough for now, WIP)
-- USB-3.0 (temporarily functioning with USB limit patch 10.12.X only, I will work on an SSDT patch for all OS versions later. WIP)
+- Power Management (this is not fully functional yet though is working well enough for now, WIP)
+- USB-3.0 (temporarily functioning with USB limit patch, I will work on an SSDT patch for all OS versions later. WIP)
+- Touch Screen (I2C controller, there may be a possibility of getting this to work but this will need to be worked on after all other components fully enabled on macOS)
 
 ## Likely never to work
-- Touch Screen (I2C controller, there may be a possibility of getting this to work as there is a group of people working on the I2C controller for the Surface Pro and it may also work for this device)
+
 - Fingerprint sensor
 - Rotation of Clover boot menu (pretty sure this can't happen unless the developer adds this as a feature)
 
@@ -47,6 +57,7 @@ Thank you to Github user hellodeibu who's work on the GPD Pocket 2 took me almos
 3. Fix graphics acceleration in Mojave and Catalina (URGENT)
 4. Fix Power Management and Screen Sleep
 5. Fix Clover boot menu rotation (likely need to wait for this feature to be added if ever)
+6. Create simplified install and set up process with simplified quick start guide.
 
 
 ## How to Hackintosh your One-Mix:

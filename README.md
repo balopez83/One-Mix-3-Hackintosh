@@ -5,7 +5,8 @@ If you can help fix any of the issues below I would greatly appreciate it. I bel
 
 Thank you to Github user hellodeibu who's work on the GPD Pocket 2 took me almost to the finish line as well as many others in the Hackintosh community that shared their knowledge and experience through countless forums to make this possible.
 
-If you are looking for GPD Pocket 2 macOS support you can access it here: (https://github.com/hellodeibu/gpd-pocket2-hackintosh)
+If you are looking for GPD Pocket 2 macOS support you can access it here: 
+(https://github.com/hellodeibu/gpd-pocket2-hackintosh)
 
 ## Change Log
 

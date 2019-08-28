@@ -10,6 +10,7 @@ Thank you to Github user hellodeibu who's work on the GPD Pocket 2 took me almos
 - Initial Upload
 - Original EFI moved to "EFI v1" folder (no changes have been made to this original EFI folder)
 - New EFI uploaded to "EFI v2" folder (micro HDMI port, & USB-C external video supported with internal video working) tested on Sierra only, may not work yet on High Sierra, Mojave, or Catalina.
+- Project on Hold temporarily. I have had an issue with my One-Mix 3 and had to send it back to China for repair. Once I receive it back I will move forward with this project. If anyone has ideas on how to proceed or test please let me know and I will assist as much as I can. 
 
 ## OS Status
 
@@ -45,7 +46,7 @@ Thank you to Github user hellodeibu who's work on the GPD Pocket 2 took me almos
 - Built-in microSD card reader (unless used as an installer or if you for some reason installed macOS on it)
 - Power Management (this is not fully functional yet though is working well enough for now, WIP)
 - USB-3.0 (temporarily functioning with USB limit patch, I will work on an SSDT patch for all OS versions later. WIP)
-- Touch Screen (I2C controller, there may be a possibility of getting this to work but this will need to be worked on after all other components fully enabled on macOS)
+- Touch Screen (I2C controller, there may be a possibility of getting this to work with 'voodooI2c.kext(s)' but this will need to be worked on after all other components fully enabled on macOS)
 
 ## Likely never to work
 

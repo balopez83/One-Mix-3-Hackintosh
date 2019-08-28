@@ -3,7 +3,7 @@ This project attempts to bring MacOS to the One-Mix 3 &amp; 2s with Full Support
 
 If you can help fix any of the issues below I would greatly appreciate it. I believe some of these issues could be fairly easy to fix but will take the right person who knows just what the issue is. Please feel free to post any issues or questions and I will attempt to get to it as soon as I can.
 
-Thank you to Github user hellodeibu who's work on the GPD Pocket 2 took me almost to the finish line as well as many others in the Hackintosh community that shared their knowledge and experience through countless forums to make this possible.
+Thank you to Github user hellodeibu who's work on the GPD Pocket 2 helped me get this far as well as many others in the Hackintosh community that shared their knowledge and experience through countless forums to make this possible.
 
 If you are looking for GPD Pocket 2 macOS support you can access it here:
 (https://github.com/hellodeibu/gpd-pocket2-hackintosh)

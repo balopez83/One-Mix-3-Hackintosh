@@ -8,16 +8,20 @@ Thank you to Github user hellodeibu who's work on the GPD Pocket 2 helped me get
 If you are looking for GPD Pocket 2 macOS support you can access it here:
 (https://github.com/hellodeibu/gpd-pocket2-hackintosh)
 
+## Requested: If you have knowledge of DSDT/SSDT editing please reach out to me either on Github through an issue or the preferred method through my Discord handle @BALOPEZ
+
 ## Change Log
 
 - Initial Upload
 - Original EFI moved to "EFI v1" folder (no changes have been made to this original EFI folder)
 - New EFI uploaded to "EFI v2" folder (micro HDMI port, & USB-C external video supported with internal video working) tested on Sierra only, may not work yet on High Sierra, Mojave, or Catalina.
 - Project on Hold temporarily. I have had an issue with my One-Mix 3 and had to send it back to China for repair. Once I receive it back I will move forward with this project. If anyone has ideas on how to proceed or test please let me know and I will assist as much as I can. 
+- Project has been resumed. My computer is back and I am now able to continue work on this project.
 
 ## OS Status
 
 - macOS Sierra:
+  * If you need to install to the internal NVME drive you will need to install the NVME driver included in the Clover install package, I will include this driver in future EFI uploads
   * Nearly perfect just some final touches as listed below
   ![Image of Sierra](https://github.com/balopez83/One-Mix-3-Hackintosh/blob/master/Images/AboutMacSierra.jpg?raw=true)
   ![Image of Sierra](https://github.com/balopez83/One-Mix-3-Hackintosh/blob/master/Images/SierraMultipleMonitor.png?raw=true)
@@ -68,7 +72,7 @@ If you are looking for GPD Pocket 2 macOS support you can access it here:
 ## How to Hackintosh your One-Mix:
 ## Requirements
 
-- One-Mix 3 (This may work on the One-Mix 2s as it has the same m3-8100Y processor and UHD 615 iGPU)
+- One-Mix 3 (This may work on the One-Mix 2s and 3s as it has the same m3-8100Y processor and UHD 615 iGPU)
 - USB 2.0 or microSD card to install macOS on (minimum 8GB though I recommend at least 16GB. DO NOT USE A USB 3.0 DRIVE)
   - If you use a USB 3.0 drive in the standard port the installer will fail, additionaly after install it will fail if you boot with a USB 3 in the standard port. You can use a USB to USB-C adapter or USB-C hub with a standard USB 3 plugged into the hub with no issues)
 
@@ -88,7 +92,7 @@ If you are looking for GPD Pocket 2 macOS support you can access it here:
 6. Download entire github as zip file (this will ensure all files are saved in the proper format)
 7. Using your macOS install disk creation program create an install disk on either your USB or MicroSD (Make a sandwich, this will take some time) 
 8. Once finished mount the EFI partition of the USB/SDcard drive, copy the EFI folder from this repository to the "EFI" partition
-9. OPTIONAL TASK: using the "Clover" installer update to the most current version. 
+9. OPTIONAL TASK: using the "Clover" installer update to the most current version. You must install the NVME driver from the Clover installer if you wish to install to the internal NVME SSD as the driver is not included in EFI versions 1 & 2. If you are installing to a USB stick or SSD or if you are installing to a secondary non NVME SSD installed to the secondary slot then this is not required. (I plan to include the NVME driver in my next EFI upload)
 10. Make a backup/duplicate of 'config.plist' (you will need the backup later, plus its just a good idea anyway when you change anything in this file), open the original `config.plist` with Clover Configurator and click on 'Graphics', uncheck 'Inject Intel' and change 'ig-platform-id' to 0x12345678 
 11. Save and close 'config.plist'
 12. Assuming you are leaving Windows installed and you will be dual-booting, shrink your windows partition and create a new one for your macOS install (I recommend using part or all of the 100GB 'data' drive that is already created from the factory). Personally I added a second SSD in the vacant slot and installed macOS there. (if unsure there are guides on Google)

@@ -1,0 +1,129 @@
+Report generated using gen_debug ver4.3.3
+
+ACPIPLAT LOG :-
+   15    2 0xffffff7f821cc000 0x9c000    0x9c000    com.apple.driver.AppleACPIPlatform (6.1) 52CE91F1-D89E-3BF2-A5BE-0A914968DC65 <14 13 12 8 7 6 5 3 1>
+END ACPIPLAT LOG.
+ 
+ 
+APPLEINTELCPU LOG:-
+END APPLEINTELCPU LOG.
+ 
+ 
+APPLE LPC LOG:-
+END APPLE LPC LOG.
+ 
+ 
+APPLE HDA LOG:-
+  112    1 0xffffff7f81de1000 0x1d000    0x1d000    com.apple.driver.AppleHDAController (282.10) 70256EC9-AF38-31BD-A3C5-9C0E30B64AA3 <111 89 53 13 8 7 6 5 3 1>
+  132    0 0xffffff7f81f74000 0xb7000    0xb7000    com.apple.driver.AppleHDA (282.10) B2208DA8-8CD9-36D8-BD59-C6D9A5379585 <131 112 111 89 54 53 7 6 5 3 1>
+END APPLE HDA LOG.
+ 
+ 
+LS FOR APPLEHDA :-
+ls: /System/Library/Extensions/AppleHDA.kext/Contents/Resources/*.zml*: No such file or directory
+-rw-r--r--  1 root  wheel  14530 13 Nov 06:05 /System/Library/Extensions/AppleHDA.kext/Contents/Resources/Platforms.xml.zlib
+-rw-r--r--  1 root  wheel   1487 13 Nov 06:05 /System/Library/Extensions/AppleHDA.kext/Contents/Resources/layout10.xml.zlib
+-rw-r--r--  1 root  wheel   4326 13 Nov 06:05 /System/Library/Extensions/AppleHDA.kext/Contents/Resources/layout100.xml.zlib
+-rw-r--r--  1 root  wheel   4182 13 Nov 06:05 /System/Library/Extensions/AppleHDA.kext/Contents/Resources/layout101.xml.zlib
+-rw-r--r--  1 root  wheel   4233 13 Nov 06:05 /System/Library/Extensions/AppleHDA.kext/Contents/Resources/layout102.xml.zlib
+-rw-r--r--  1 root  wheel   7866 13 Nov 06:05 /System/Library/Extensions/AppleHDA.kext/Contents/Resources/layout107.xml.zlib
+-rw-r--r--  1 root  wheel   2346 13 Nov 06:05 /System/Library/Extensions/AppleHDA.kext/Contents/Resources/layout108.xml.zlib
+-rw-r--r--  1 root  wheel   3848 13 Nov 06:05 /System/Library/Extensions/AppleHDA.kext/Contents/Resources/layout113.xml.zlib
+-rw-r--r--  1 root  wheel   3916 13 Nov 06:05 /System/Library/Extensions/AppleHDA.kext/Contents/Resources/layout114.xml.zlib
+-rw-r--r--  1 root  wheel   2304 13 Nov 06:05 /System/Library/Extensions/AppleHDA.kext/Contents/Resources/layout120.xml.zlib
+-rw-r--r--  1 root  wheel  17927 13 Nov 06:05 /System/Library/Extensions/AppleHDA.kext/Contents/Resources/layout121.xml.zlib
+-rw-r--r--  1 root  wheel  15064 13 Nov 06:05 /System/Library/Extensions/AppleHDA.kext/Contents/Resources/layout122.xml.zlib
+-rw-r--r--  1 root  wheel   6413 13 Nov 06:05 /System/Library/Extensions/AppleHDA.kext/Contents/Resources/layout123.xml.zlib
+-rw-r--r--  1 root  wheel   8734 13 Nov 06:05 /System/Library/Extensions/AppleHDA.kext/Contents/Resources/layout124.xml.zlib
+-rw-r--r--  1 root  wheel   3848 13 Nov 06:05 /System/Library/Extensions/AppleHDA.kext/Contents/Resources/layout125.xml.zlib
+-rw-r--r--  1 root  wheel   3918 13 Nov 06:05 /System/Library/Extensions/AppleHDA.kext/Contents/Resources/layout126.xml.zlib
+-rw-r--r--  1 root  wheel  17743 13 Nov 06:05 /System/Library/Extensions/AppleHDA.kext/Contents/Resources/layout127.xml.zlib
+-rw-r--r--  1 root  wheel   9461 13 Nov 06:05 /System/Library/Extensions/AppleHDA.kext/Contents/Resources/layout128.xml.zlib
+-rw-r--r--  1 root  wheel  17932 13 Nov 06:05 /System/Library/Extensions/AppleHDA.kext/Contents/Resources/layout129.xml.zlib
+-rw-r--r--  1 root  wheel  11528 13 Nov 06:05 /System/Library/Extensions/AppleHDA.kext/Contents/Resources/layout130.xml.zlib
+-rw-r--r--  1 root  wheel   2345 13 Nov 06:05 /System/Library/Extensions/AppleHDA.kext/Contents/Resources/layout131.xml.zlib
+-rw-r--r--  1 root  wheel  12364 13 Nov 06:05 /System/Library/Extensions/AppleHDA.kext/Contents/Resources/layout14.xml.zlib
+-rw-r--r--  1 root  wheel  12345 13 Nov 06:05 /System/Library/Extensions/AppleHDA.kext/Contents/Resources/layout15.xml.zlib
+-rw-r--r--  1 root  wheel   5230 13 Nov 06:05 /System/Library/Extensions/AppleHDA.kext/Contents/Resources/layout16.xml.zlib
+-rw-r--r--  1 root  wheel    429 13 Nov 06:05 /System/Library/Extensions/AppleHDA.kext/Contents/Resources/layout16392.xml.zlib
+-rw-r--r--  1 root  wheel   3909 13 Nov 06:05 /System/Library/Extensions/AppleHDA.kext/Contents/Resources/layout17.xml.zlib
+-rw-r--r--  1 root  wheel   4578 13 Nov 06:05 /System/Library/Extensions/AppleHDA.kext/Contents/Resources/layout19.xml.zlib
+-rw-r--r--  1 root  wheel   1615 13 Nov 06:05 /System/Library/Extensions/AppleHDA.kext/Contents/Resources/layout2.xml.zlib
+-rw-r--r--  1 root  wheel   1416 13 Nov 06:05 /System/Library/Extensions/AppleHDA.kext/Contents/Resources/layout20.xml.zlib
+-rw-r--r--  1 root  wheel   1603 13 Nov 06:05 /System/Library/Extensions/AppleHDA.kext/Contents/Resources/layout21.xml.zlib
+-rw-r--r--  1 root  wheel   2585 13 Nov 06:05 /System/Library/Extensions/AppleHDA.kext/Contents/Resources/layout33.xml.zlib
+-rw-r--r--  1 root  wheel   2585 13 Nov 06:05 /System/Library/Extensions/AppleHDA.kext/Contents/Resources/layout35.xml.zlib
+-rw-r--r--  1 root  wheel   1815 13 Nov 06:05 /System/Library/Extensions/AppleHDA.kext/Contents/Resources/layout4.xml.zlib
+-rw-r--r--  1 root  wheel   7832 13 Nov 06:05 /System/Library/Extensions/AppleHDA.kext/Contents/Resources/layout40.xml.zlib
+-rw-r--r--  1 root  wheel   6348 13 Nov 06:05 /System/Library/Extensions/AppleHDA.kext/Contents/Resources/layout5.xml.zlib
+-rw-r--r--  1 root  wheel  10156 13 Nov 06:05 /System/Library/Extensions/AppleHDA.kext/Contents/Resources/layout51.xml.zlib
+-rw-r--r--  1 root  wheel   5762 13 Nov 06:05 /System/Library/Extensions/AppleHDA.kext/Contents/Resources/layout54.xml.zlib
+-rw-r--r--  1 root  wheel   5648 13 Nov 06:05 /System/Library/Extensions/AppleHDA.kext/Contents/Resources/layout57.xml.zlib
+-rw-r--r--  1 root  wheel   9126 13 Nov 06:05 /System/Library/Extensions/AppleHDA.kext/Contents/Resources/layout59.xml.zlib
+-rw-r--r--  1 root  wheel  14494 13 Nov 06:05 /System/Library/Extensions/AppleHDA.kext/Contents/Resources/layout6.xml.zlib
+-rw-r--r--  1 root  wheel   2085 13 Nov 06:05 /System/Library/Extensions/AppleHDA.kext/Contents/Resources/layout66.xml.zlib
+-rw-r--r--  1 root  wheel  15073 13 Nov 06:05 /System/Library/Extensions/AppleHDA.kext/Contents/Resources/layout7.xml.zlib
+-rw-r--r--  1 root  wheel   5357 13 Nov 06:05 /System/Library/Extensions/AppleHDA.kext/Contents/Resources/layout82.xml.zlib
+-rw-r--r--  1 root  wheel   4719 13 Nov 06:05 /System/Library/Extensions/AppleHDA.kext/Contents/Resources/layout83.xml.zlib
+-rw-r--r--  1 root  wheel   4881 13 Nov 06:05 /System/Library/Extensions/AppleHDA.kext/Contents/Resources/layout85.xml.zlib
+-rw-r--r--  1 root  wheel   7208 13 Nov 06:05 /System/Library/Extensions/AppleHDA.kext/Contents/Resources/layout86.xml.zlib
+-rw-r--r--  1 root  wheel   2548 13 Nov 06:05 /System/Library/Extensions/AppleHDA.kext/Contents/Resources/layout88.xml.zlib
+-rw-r--r--  1 root  wheel  14452 13 Nov 06:05 /System/Library/Extensions/AppleHDA.kext/Contents/Resources/layout90.xml.zlib
+-rw-r--r--  1 root  wheel  14922 13 Nov 06:05 /System/Library/Extensions/AppleHDA.kext/Contents/Resources/layout92.xml.zlib
+-rw-r--r--  1 root  wheel   7937 13 Nov 06:05 /System/Library/Extensions/AppleHDA.kext/Contents/Resources/layout93.xml.zlib
+-rw-r--r--  1 root  wheel   8752 13 Nov 06:05 /System/Library/Extensions/AppleHDA.kext/Contents/Resources/layout94.xml.zlib
+-rw-r--r--  1 root  wheel    331 13 Nov 06:05 /System/Library/Extensions/AppleHDA.kext/Contents/Resources/layout95.xml.zlib
+END LS FOR APPLEHDA.
+ 
+ 
+PMSET DUMP :-
+System-wide power settings:
+Currently in use:
+ standbydelaylow      10800
+ standby              1
+ halfdim              1
+ hibernatefile        /var/vm/sleepimage
+ proximitywake        0
+ powernap             0
+ gpuswitch            2
+ disksleep            10
+ standbydelayhigh     86400
+ sleep                1
+ autopoweroffdelay    28800
+ hibernatemode        3
+ autopoweroff         1
+ ttyskeepawake        1
+ displaysleep         2
+ tcpkeepalive         1
+ highstandbythreshold 50
+ lidwake              1
+END DUMP FOR PMSET
+ 
+ 
+PMSET ASSERTIONS DUMP :-
+2018-12-24 09:11:30 +0100 
+Assertion status system-wide:
+   BackgroundTask                 0
+   ApplePushServiceTask           0
+   UserIsActive                   1
+   PreventUserIdleDisplaySleep    0
+   PreventSystemSleep             0
+   ExternalMedia                  0
+   PreventUserIdleSystemSleep     0
+   NetworkClientActive            0
+Listed by owning process:
+   pid 92(hidd): [0x000000390009803c] 00:00:02 UserIsActive named: "com.apple.iohideventsystem.queue.tickle.4294968091.3" 
+	Timeout will fire in 117 secs Action=TimeoutActionRelease
+   pid 202(mds_stores): [0x00000148000b80cf] 00:00:01 BackgroundTask named: "com.apple.metadata.mds_stores.power" 
+   pid 62(mds): [0x00000148000b80d0] 00:00:00 BackgroundTask named: "com.apple.metadata.mds.power" 
+Kernel Assertions: 0x4=USB
+   id=500  level=255 0x4=USB mod=01.01.70, 01:00 description=com.apple.usb.externaldevice.14300000 owner=802.11n WLAN Adapter
+Idle sleep preventers: IODisplayWrangler
+END DUMP FOR PMSET ASSERTIONS.
+ 
+ 
+DUMP FOR TRIM STATUS :-
+          TRIM Support: No
+END DUMP FOR TRIM STATUS.
+ 
+ 

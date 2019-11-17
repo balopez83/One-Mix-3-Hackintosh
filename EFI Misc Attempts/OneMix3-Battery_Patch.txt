@@ -1,0 +1,20 @@
+#battery_ASUS-G75vw.txt          88 patches, 9 changes
+#battery_Gateway-ID49C07u.txt    39 Patches, 47 Changes
+#battery_Gigabyte-Aero15V8.txt   27 Patches, 14 Changes
+#battery_Gigabyte-P35Xv3.txt     20 Patches, 18 Changes
+#battery_Gigabyte-u2442N.txt     22 Patches, 16 Changes
+#battery_Lenovo-G50-70.txt       35 Patches, 9 Changes
+#battery_Lenovo-Ideapad-100.txt  57 Patches, 9 Changes
+#battery_Lenovo-Ideapad-Y700.txt 57 Patches, 9 Changes
+#battery_Lenovo-Miix-720.txt     58 Patches, 10 Changes
+#battery_Lenovo-N480.txt         38 Patches, 10 Changes
+#battery_Lenovo-V510-15IKB.txt   75 Patches, 2 Changes
+#battery_Lenovo—X201.txt         36 Patches, 3 Changes
+#battery_Lenovo-X220.txt         77 Patches, 3 Changes
+#battery_Lenovo-X230i.txt        53 Patches, 3 Changes
+#battery_Lenovo-Yoga-13.txt      19 Patches, 6 Changes
+#battery_Lenovo-Yoga-Pro2.txt    23 Patches, 10 Changes
+#battery_Lenovo-Z50-70.txt       28 Patches, 8 Changes
+#battery_Razer-Blade-Pro.txt     16 Patches, 16 Changes
+#battery_Sony-VAIO-S.txt         55 Patches, 18 Changes
+#battery_

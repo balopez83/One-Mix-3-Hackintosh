@@ -1,0 +1,144 @@
+8:340  5:174  Found UEFI Acpi 2.0 RSDP at 5414E000
+8:340  0:000  Saving ACPI tables from RSDP 5414E000 to EFI\CLOVER\ACPI\origin ...
+8:340  0:000   5414E000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+8:377  0:036    (Xsdt: 5414E0C0, Rsdt: 5414E028)
+8:377  0:000    5414E0C0: 'XSDT', 'A M I', Rev: 1, Len: 252 -> XSDT.aml
+8:410  0:032    5414E028: 'RSDT', 'A M I', Rev: 1, Len: 144 -> RSDT.aml
+8:441  0:031    Tables in Xsdt: 27
+8:441  0:000    0. 54175988: 'FACP', 'A M I', Rev: 6, Len: 276 -> FACP.aml
+8:471  0:030        (Dsdt: 5414E250, Facs: 5CB44F00, XDsdt: 5414E250, XFacs: 0)
+8:471  0:000        5414E250: 'DSDT', 'A M I', Rev: 2, Len: 161592 -> DSDT.aml
+8:520  0:049        5CB44F00: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+8:551  0:031    1. 54175AA0: 'APIC', 'A M I', Rev: 3, Len: 132 -> APIC.aml
+8:581  0:030    2. 54175B28: 'FPDT', 'A M I', Rev: 1, Len: 68 -> FPDT.aml
+8:612  0:031    3. 54175B70: 'FIDT', 'A M I', Rev: 1, Len: 156 -> FIDT.aml
+8:646  0:033    4. 54175C10: 'MCFG', 'A M I', Rev: 1, Len: 60 -> MCFG.aml
+8:680  0:034    5. 54175C50: 'SSDT', 'SataTabl', Rev: 1, Len: 857 -> SSDT-0-SataTabl.aml
+8:712  0:032    6. 54175FB0: 'SSDT', 'DptfTabl', Rev: 2, Len: 44768 -> SSDT-1-DptfTabl.aml
+8:748  0:035    7. 54180E90: 'SSDT', 'SaSsdt', Rev: 2, Len: 12410 -> SSDT-2-SaSsdt.aml
+8:780  0:031    8. 54183F10: 'HPET', 'KBL-ULT', Rev: 1, Len: 56 -> HPET.aml
+8:811  0:031    9. 54183F48: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 2306 -> SSDT-3-Ther_Rvp.aml
+8:843  0:032    10. 54184850: 'SSDT', 'xh_rvp03', Rev: 2, Len: 2955 -> SSDT-4-xh_rvp03.aml
+8:878  0:034    11. 541853E0: 'UEFI', 'A M I', Rev: 1, Len: 66 -> UEFI.aml
+8:910  0:031    12. 54185428: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6062 -> SSDT-5-CpuSsdt.aml (Found hidden SSDT 7 pcs)
+8:941  0:031        * 5CA52318: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1287  53 53 44 54 07 05 00 00 02 65 50 6D 52 65 66 00 Internal length = 1287 -> SSDT-x5_0-Cpu0Ist.aml
+8:971  0:030        * 5C40A018: 'SSDT', 'ApIst', Rev: 2, Len: 3348  53 53 44 54 14 0D 00 00 02 30 50 6D 52 65 66 00 Internal length = 3348 -> SSDT-x5_1-ApIst.aml
+9:002  0:031        * 5C40B698: 'SSDT', 'Cpu0Cst', Rev: 2, Len: 1023  53 53 44 54 FF 03 00 00 02 17 50 6D 52 65 66 00 Internal length = 1023 -> SSDT-x5_2-Cpu0Cst.aml
+9:035  0:033        * 5C409018: 'SSDT', 'ApCst', Rev: 2, Len: 778  53 53 44 54 0A 03 00 00 02 99 50 6D 52 65 66 00 Internal length = 778 -> SSDT-x5_3-ApCst.aml
+9:069  0:034        * 5CA52D98: 'SSDT', 'Cpu0Hwp', Rev: 2, Len: 186  53 53 44 54 BA 00 00 00 02 83 50 6D 52 65 66 00 Internal length = 186 -> SSDT-x5_4-Cpu0Hwp.aml
+9:101  0:032        * 5C409418: 'SSDT', 'ApHwp', Rev: 2, Len: 791  53 53 44 54 17 03 00 00 02 86 50 6D 52 65 66 00 Internal length = 791 -> SSDT-x5_5-ApHwp.aml
+9:132  0:030        * 5C40B018: 'SSDT', 'HwpLvt', Rev: 2, Len: 1576  53 53 44 54 28 06 00 00 02 8B 50 6D 52 65 66 00 Internal length = 1576 -> SSDT-x5_6-HwpLvt.aml
+9:164  0:032  
+9:164  0:000    13. 54186BD8: 'LPIT', 'KBL-ULT', Rev: 1, Len: 148 -> LPIT.aml
+9:196  0:031    14. 54186C70: 'SSDT', 'HdaDsp', Rev: 2, Len: 321 -> SSDT-6-HdaDsp.aml
+9:229  0:033    15. 54186DB8: 'SSDT', 'sensrhub', Rev: 2, Len: 671 -> SSDT-7-sensrhub.aml
+9:260  0:031    16. 54187058: 'SSDT', 'PtidDevc', Rev: 2, Len: 12290 -> SSDT-8-PtidDevc.aml
+9:292  0:031    17. 5418A060: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1303 -> SSDT-9-TbtTypeC.aml
+9:322  0:030    18. 5418A578: 'DBGP', '', Rev: 1, Len: 52 -> DBGP.aml
+9:354  0:032    19. 5418A5B0: 'DBG2', '', Rev: 0, Len: 84 -> DBG2.aml
+9:386  0:032    20. 5418A608: 'SSDT', 'UsbCTabl', Rev: 2, Len: 3366 -> SSDT-10-UsbCTabl.aml
+9:421  0:034    21. 5418B330: 'DMAR', 'KBL', Rev: 1, Len: 312 -> DMAR.aml
+9:449  0:027    22. 5418B468: 'NHLT', 'EDK2', Rev: 0, Len: 45 -> NHLT.aml
+9:481  0:032    23. 5418B498: 'BGRT', 'A M I', Rev: 1, Len: 56 -> BGRT.aml
+9:514  0:032    24. 5418B4D0: 'TPM2', 'A M I', Rev: 3, Len: 52 -> TPM2.aml
+9:545  0:031    25. 5418B508: 'ASF!', ' HCG', Rev: 32, Len: 160 -> ASF!.aml
+9:578  0:032    26. 5418B5A8: 'WSMT', 'A M I', Rev: 1, Len: 40 -> WSMT.aml
+9:611  0:032    Tables in Rsdt: 27
+9:611  0:000    0. 5414E1C8: 'FACP', 'A M I', Rev: 2, Len: 132 -> RSDT-FACP.aml
+9:643  0:032        (Dsdt: 5414E250, Facs: 5CB44EC0)
+9:643  0:000        5414E250: 'DSDT', 'A M I', Rev: 2, Len: 161592
+9:647  0:004        5CB44EC0: 'FACS', Ver: 0, Len: 64 -> RSDT-FACS.aml
+9:680  0:033    1. 54175AA0: 'APIC', 'A M I', Rev: 3, Len: 132
+9:680  0:000    2. 54175B28: 'FPDT', 'A M I', Rev: 1, Len: 68
+9:680  0:000    3. 54175B70: 'FIDT', 'A M I', Rev: 1, Len: 156
+9:680  0:000    4. 54175C10: 'MCFG', 'A M I', Rev: 1, Len: 60
+9:680  0:000    5. 54175C50: 'SSDT', 'SataTabl', Rev: 1, Len: 857
+9:680  0:000    6. 54175FB0: 'SSDT', 'DptfTabl', Rev: 2, Len: 44768
+9:680  0:000    7. 54180E90: 'SSDT', 'SaSsdt', Rev: 2, Len: 12410
+9:680  0:000    8. 54183F10: 'HPET', 'KBL-ULT', Rev: 1, Len: 56
+9:680  0:000    9. 54183F48: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 2306
+9:680  0:000    10. 54184850: 'SSDT', 'xh_rvp03', Rev: 2, Len: 2955
+9:680  0:000    11. 541853E0: 'UEFI', 'A M I', Rev: 1, Len: 66
+9:680  0:000    12. 54185428: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6062
+9:680  0:000    13. 54186BD8: 'LPIT', 'KBL-ULT', Rev: 1, Len: 148
+9:680  0:000    14. 54186C70: 'SSDT', 'HdaDsp', Rev: 2, Len: 321
+9:680  0:000    15. 54186DB8: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+9:680  0:000    16. 54187058: 'SSDT', 'PtidDevc', Rev: 2, Len: 12290
+9:680  0:000    17. 5418A060: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1303
+9:680  0:000    18. 5418A578: 'DBGP', '', Rev: 1, Len: 52
+9:680  0:000    19. 5418A5B0: 'DBG2', '', Rev: 0, Len: 84
+9:680  0:000    20. 5418A608: 'SSDT', 'UsbCTabl', Rev: 2, Len: 3366
+9:680  0:000    21. 5418B330: 'DMAR', 'KBL', Rev: 1, Len: 312
+9:680  0:000    22. 5418B468: 'NHLT', 'EDK2', Rev: 0, Len: 45
+9:680  0:000    23. 5418B498: 'BGRT', 'A M I', Rev: 1, Len: 56
+9:680  0:000    24. 5418B4D0: 'TPM2', 'A M I', Rev: 3, Len: 52
+9:680  0:000    25. 5418B508: 'ASF!', ' HCG', Rev: 32, Len: 160
+9:680  0:000    26. 5418B5A8: 'WSMT', 'A M I', Rev: 1, Len: 40
+9:680  0:000  Found UEFI Acpi 1.0 RSDP at 5414E000
+9:680  0:000  Printing ACPI tables from RSDP 5414E000 ...
+9:680  0:000   5414E000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+9:680  0:000    (Xsdt: 5414E0C0, Rsdt: 5414E028)
+9:680  0:000    5414E0C0: 'XSDT', 'A M I', Rev: 1, Len: 252
+9:680  0:000    5414E028: 'RSDT', 'A M I', Rev: 1, Len: 144
+9:680  0:000    Tables in Xsdt: 27
+9:680  0:000    0. 54175988: 'FACP', 'A M I', Rev: 6, Len: 276
+9:680  0:000        (Dsdt: 5414E250, Facs: 5CB44F00, XDsdt: 5414E250, XFacs: 0)
+9:680  0:000        5414E250: 'DSDT', 'A M I', Rev: 2, Len: 161592
+9:685  0:004        5CB44F00: 'FACS', Ver: 2, Len: 64
+9:685  0:000    1. 54175AA0: 'APIC', 'A M I', Rev: 3, Len: 132
+9:685  0:000    2. 54175B28: 'FPDT', 'A M I', Rev: 1, Len: 68
+9:685  0:000    3. 54175B70: 'FIDT', 'A M I', Rev: 1, Len: 156
+9:685  0:000    4. 54175C10: 'MCFG', 'A M I', Rev: 1, Len: 60
+9:685  0:000    5. 54175C50: 'SSDT', 'SataTabl', Rev: 1, Len: 857
+9:685  0:000    6. 54175FB0: 'SSDT', 'DptfTabl', Rev: 2, Len: 44768
+9:685  0:000    7. 54180E90: 'SSDT', 'SaSsdt', Rev: 2, Len: 12410
+9:685  0:000    8. 54183F10: 'HPET', 'KBL-ULT', Rev: 1, Len: 56
+9:685  0:000    9. 54183F48: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 2306
+9:685  0:000    10. 54184850: 'SSDT', 'xh_rvp03', Rev: 2, Len: 2955
+9:685  0:000    11. 541853E0: 'UEFI', 'A M I', Rev: 1, Len: 66
+9:685  0:000    12. 54185428: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6062
+9:685  0:000    13. 54186BD8: 'LPIT', 'KBL-ULT', Rev: 1, Len: 148
+9:685  0:000    14. 54186C70: 'SSDT', 'HdaDsp', Rev: 2, Len: 321
+9:685  0:000    15. 54186DB8: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+9:685  0:000    16. 54187058: 'SSDT', 'PtidDevc', Rev: 2, Len: 12290
+9:685  0:000    17. 5418A060: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1303
+9:685  0:000    18. 5418A578: 'DBGP', '', Rev: 1, Len: 52
+9:685  0:000    19. 5418A5B0: 'DBG2', '', Rev: 0, Len: 84
+9:685  0:000    20. 5418A608: 'SSDT', 'UsbCTabl', Rev: 2, Len: 3366
+9:685  0:000    21. 5418B330: 'DMAR', 'KBL', Rev: 1, Len: 312
+9:685  0:000    22. 5418B468: 'NHLT', 'EDK2', Rev: 0, Len: 45
+9:685  0:000    23. 5418B498: 'BGRT', 'A M I', Rev: 1, Len: 56
+9:685  0:000    24. 5418B4D0: 'TPM2', 'A M I', Rev: 3, Len: 52
+9:685  0:000    25. 5418B508: 'ASF!', ' HCG', Rev: 32, Len: 160
+9:685  0:000    26. 5418B5A8: 'WSMT', 'A M I', Rev: 1, Len: 40
+9:685  0:000    Tables in Rsdt: 27
+9:685  0:000    0. 5414E1C8: 'FACP', 'A M I', Rev: 2, Len: 132
+9:685  0:000        (Dsdt: 5414E250, Facs: 5CB44EC0)
+9:685  0:000        5414E250: 'DSDT', 'A M I', Rev: 2, Len: 161592
+9:689  0:004        5CB44EC0: 'FACS', Ver: 0, Len: 64
+9:689  0:000    1. 54175AA0: 'APIC', 'A M I', Rev: 3, Len: 132
+9:689  0:000    2. 54175B28: 'FPDT', 'A M I', Rev: 1, Len: 68
+9:689  0:000    3. 54175B70: 'FIDT', 'A M I', Rev: 1, Len: 156
+9:689  0:000    4. 54175C10: 'MCFG', 'A M I', Rev: 1, Len: 60
+9:689  0:000    5. 54175C50: 'SSDT', 'SataTabl', Rev: 1, Len: 857
+9:689  0:000    6. 54175FB0: 'SSDT', 'DptfTabl', Rev: 2, Len: 44768
+9:689  0:000    7. 54180E90: 'SSDT', 'SaSsdt', Rev: 2, Len: 12410
+9:689  0:000    8. 54183F10: 'HPET', 'KBL-ULT', Rev: 1, Len: 56
+9:689  0:000    9. 54183F48: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 2306
+9:689  0:000    10. 54184850: 'SSDT', 'xh_rvp03', Rev: 2, Len: 2955
+9:689  0:000    11. 541853E0: 'UEFI', 'A M I', Rev: 1, Len: 66
+9:689  0:000    12. 54185428: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6062
+9:689  0:000    13. 54186BD8: 'LPIT', 'KBL-ULT', Rev: 1, Len: 148
+9:689  0:000    14. 54186C70: 'SSDT', 'HdaDsp', Rev: 2, Len: 321
+9:689  0:000    15. 54186DB8: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+9:689  0:000    16. 54187058: 'SSDT', 'PtidDevc', Rev: 2, Len: 12290
+9:689  0:000    17. 5418A060: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1303
+9:689  0:000    18. 5418A578: 'DBGP', '', Rev: 1, Len: 52
+9:689  0:000    19. 5418A5B0: 'DBG2', '', Rev: 0, Len: 84
+9:689  0:000    20. 5418A608: 'SSDT', 'UsbCTabl', Rev: 2, Len: 3366
+9:689  0:000    21. 5418B330: 'DMAR', 'KBL', Rev: 1, Len: 312
+9:689  0:000    22. 5418B468: 'NHLT', 'EDK2', Rev: 0, Len: 45
+9:689  0:000    23. 5418B498: 'BGRT', 'A M I', Rev: 1, Len: 56
+9:689  0:000    24. 5418B4D0: 'TPM2', 'A M I', Rev: 3, Len: 52
+9:689  0:000    25. 5418B508: 'ASF!', ' HCG', Rev: 32, Len: 160
+9:689  0:000    26. 5418B5A8: 'WSMT', 'A M I', Rev: 1, Len: 40

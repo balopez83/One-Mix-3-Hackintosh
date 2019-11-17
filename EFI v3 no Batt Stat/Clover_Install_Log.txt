@@ -1,0 +1,54 @@
+
+Clover EFI installer log - Tue Nov  5 11:25:16 PST 2019
+Installer version: v2.5k r5098 EFI bootloader
+======================================================
+/dev/disk0 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *256.1 GB   disk0
+   1:                        EFI EFI                     209.7 MB   disk0s1
+   2:          Apple_CoreStorage macOS                   106.7 GB   disk0s2
+   3:                 Apple_Boot Recovery HD             650.0 MB   disk0s3
+   4:                 Apple_APFS Container disk2         148.5 GB   disk0s4
+
+/dev/disk1 (internal, virtual):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:                  Apple_HFS macOS                  +106.4 GB   disk1
+                                 Logical Volume on disk0s2
+                                 7DE5A269-E9BF-4F2C-9CF9-C5426822D75F
+                                 Unencrypted
+
+/dev/disk2 (synthesized):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      APFS Container Scheme -                      +148.5 GB   disk2
+                                 Physical Store disk0s4
+   1:                APFS Volume testOS                  55.0 GB    disk2s1
+   2:                APFS Volume Preboot                 44.7 MB    disk2s2
+   3:                APFS Volume Recovery                510.4 MB   disk2s3
+   4:                APFS Volume VM                      2.1 GB     disk2s4
+
+/dev/disk3 (external, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *123.0 GB   disk3
+   1:                        EFI EFI-SAMSUNG             209.7 MB   disk3s1
+   2:                  Apple_HFS Install macOS Sierra    122.7 GB   disk3s2
+
+disk1 is a logical volume
+======================================================
+Backing up EFI files
+
+Backing up /Volumes/macOS/EFIROOTDIR/EFI folder to /Volumes/macOS/EFI-Backups/r5098/2019-11-05-11h25/EFI
+======================================================
+Installing BootSectors/BootLoader
+
+Stage 0 - Don't write any of boot0af, boot0md, boot0ss to /
+Stage 1 - Don't write any of boot1h2, boot1f32alt, boot1xalt to /
+======================================================
+Installing RC Scripts
+
+Installing RC scripts on target volume '/'
+
+
+Using default theme 'Clovy'
+======================================================
+=========== Clover EFI Installation Finish ===========
+======================================================

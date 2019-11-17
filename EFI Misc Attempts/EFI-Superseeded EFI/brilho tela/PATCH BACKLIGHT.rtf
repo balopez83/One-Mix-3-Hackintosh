@@ -1,0 +1,57 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf400
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fswiss\fcharset0 Helvetica-Bold;\f2\fswiss\fcharset0 Helvetica-Oblique;
+}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww13900\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 O
+\f1\b\fs72 CONTROLE DE BRILHO - BACKLIGHT
+\fs48 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\qc\partightenfactor0
+\cf0 \
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\b0 \cf0 Requisitos:\
+\
+1- GR\'c1FICO INTEL PERFEITAMENTE INJETADO.\
+2- KEXT \'93AppleBacklightInjector\'94.\
+3- \'93SSDT-PNLF\'94 INSERIDA PERFEITAMENTE NO CLOVER.\
+4- \'93Change GFX0 to IGPU\'94 na aba \'93ACPI\'94 do config.plist.\
+5- KEXT PATCH VIA CLOVER.\
+6- EXECU\'c7\'c3O DE COMANDO NO TERMINAL.\
+\
+OBS:\
+* V\'c1LIDO PARA QUALQUER GR\'c1FICO INTEL.\
+* AS TECLAS DE CONTROLE DE BRILHO NO TECLADO PODEM N\'c3O FUNCIONAR, OU ESTAREM TROCADAS ENTRE AS TECLAS \'93F1 AT\'c9 F12\'94. CONTROLE O BRILHO PELAS PREFER\'caNCIAS DO SISTEMA N\'c3O TER\'c1 ERRO.\
+\
+
+\f2\i \ul \ulc0 Patch [Kernel and Kext Patches]:\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\i0\fs24 \cf0 \ulnone \
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f1\b\fs48 \cf0 Name:
+\f0\b0  com.apple.driver.AppleBacklight\
+
+\f1\b Find:
+\f0\b0  46257554 25303478 00\
+
+\f1\b Replace:
+\f0\b0  46257554 78787878 00\
+
+\f1\b Comment:
+\f0\b0  change F%uT%04x to F%uTxxxx in AppleBacklightInjector.kext (credit RehabMan)\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f2\i \cf0 \ul \
+COMANDO NO TERMINAL:
+\f0\i0 \ulnone \
+\
+sudo kextcache -i /\
+}

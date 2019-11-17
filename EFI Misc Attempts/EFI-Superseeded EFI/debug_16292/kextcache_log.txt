@@ -1,0 +1,17 @@
+Kext with invalid signatured (-67062) allowed: <OSKext 0x7f8f48069890 [0x7fff847e98f0]> { URL = "VirtualSMC.kext/ -- file:///Library/Extensions/", ID = "as.vit9696.VirtualSMC" }
+Kext with invalid signatured (-67062) allowed: <OSKext 0x7f8f47f4e700 [0x7fff847e98f0]> { URL = "Lilu.kext/ -- file:///Library/Extensions/", ID = "as.vit9696.Lilu" }
+Kext with invalid signatured (-67062) allowed: <OSKext 0x7f8f48038ac0 [0x7fff847e98f0]> { URL = "LiluFriend.kext/ -- file:///Library/Extensions/", ID = "com.apple.security.LiluFriend" }
+Kext with invalid signatured (-67062) allowed: <OSKext 0x7f8f47f72690 [0x7fff847e98f0]> { URL = "WhateverGreen.kext/ -- file:///Library/Extensions/", ID = "as.vit9696.WhateverGreen" }
+Kext with invalid signatured (-67062) allowed: <OSKext 0x7f8f47f4ff50 [0x7fff847e98f0]> { URL = "AppleALC.kext/ -- file:///Library/Extensions/", ID = "as.vit9696.AppleALC" }
+Kext with invalid signatured (-67062) allowed: <OSKext 0x7f8f47fe9d10 [0x7fff847e98f0]> { URL = "USBInjectAll.kext/ -- file:///Library/Extensions/", ID = "com.rehabman.driver.USBInjectAll" }
+Kext with invalid signatured (-67062) allowed: <OSKext 0x7f8f47fe5c70 [0x7fff847e98f0]> { URL = "SMCProcessor.kext/ -- file:///Library/Extensions/", ID = "as.vit9696.SMCProcessor" }
+Kext with invalid signatured (-67062) allowed: <OSKext 0x7f8f47fdaeb0 [0x7fff847e98f0]> { URL = "SMCBatteryManager.kext/ -- file:///Library/Extensions/", ID = "ru.usrsse2.SMCBatteryManager" }
+KernelCache ID: C243196006C09C3A2DEC3C316BE9C182
+Kext with invalid signatured (-67062) allowed: <OSKext 0x7fd83dc14ee0 [0x7fff847e98f0]> { URL = "Lilu.kext/ -- file:///Library/Extensions/", ID = "as.vit9696.Lilu" }
+Kext with invalid signatured (-67062) allowed: <OSKext 0x7fd83dc12bd0 [0x7fff847e98f0]> { URL = "AppleALC.kext/ -- file:///Library/Extensions/", ID = "as.vit9696.AppleALC" }
+Kext with invalid signatured (-67062) allowed: <OSKext 0x7fd84058fb60 [0x7fff847e98f0]> { URL = "WhateverGreen.kext/ -- file:///Library/Extensions/", ID = "as.vit9696.WhateverGreen" }
+Kext with invalid signatured (-67062) allowed: <OSKext 0x7fd8405e21c0 [0x7fff847e98f0]> { URL = "SMCBatteryManager.kext/ -- file:///Library/Extensions/", ID = "ru.usrsse2.SMCBatteryManager" }
+Kext with invalid signatured (-67062) allowed: <OSKext 0x7fd8405eb620 [0x7fff847e98f0]> { URL = "SMCProcessor.kext/ -- file:///Library/Extensions/", ID = "as.vit9696.SMCProcessor" }
+Kext with invalid signatured (-67062) allowed: <OSKext 0x7fd8405f53e0 [0x7fff847e98f0]> { URL = "USBInjectAll.kext/ -- file:///Library/Extensions/", ID = "com.rehabman.driver.USBInjectAll" }
+Kext with invalid signatured (-67062) allowed: <OSKext 0x7fd840741a20 [0x7fff847e98f0]> { URL = "LiluFriend.kext/ -- file:///Library/Extensions/", ID = "com.apple.security.LiluFriend" }
+Kext with invalid signatured (-67062) allowed: <OSKext 0x7fd840772ca0 [0x7fff847e98f0]> { URL = "VirtualSMC.kext/ -- file:///Library/Extensions/", ID = "as.vit9696.VirtualSMC" }

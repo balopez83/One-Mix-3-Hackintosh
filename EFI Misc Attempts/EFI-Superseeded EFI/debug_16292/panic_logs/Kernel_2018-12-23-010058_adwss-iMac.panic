@@ -1,0 +1,49 @@
+Anonymous UUID:       8BD086F6-A928-62F9-E08E-53EFE839457F
+
+Sun Dec 23 01:00:58 2018
+
+*** Panic Report ***
+panic(cpu 0 caller 0xffffff7f9494c239): assertmsg@/Library/Caches/com.apple.xbs/Sources/GPUDriversIntel/GPUDriversIntel-12.4.7.1/Common/IONDRV/Intel/KBL/AppleIntelFramebuffer/AppleIntelController.cpp:28012
+Backtrace (CPU 0), Frame : Return Address
+0xffffff812cc33aa0 : 0xffffff80119aeafd 
+0xffffff812cc33af0 : 0xffffff8011ae85a3 
+0xffffff812cc33b30 : 0xffffff8011ad9fca 
+0xffffff812cc33ba0 : 0xffffff801195bca0 
+0xffffff812cc33bc0 : 0xffffff80119ae517 
+0xffffff812cc33ce0 : 0xffffff80119ae363 
+0xffffff812cc33d50 : 0xffffff7f9494c239 
+0xffffff812cc33db0 : 0xffffff7f94948f98 
+0xffffff812cc33e40 : 0xffffff801202c65b 
+0xffffff812cc33e80 : 0xffffff801202c3a1 
+0xffffff812cc33f00 : 0xffffff801202b8f7 
+0xffffff812cc33f50 : 0xffffff801202d3c6 
+0xffffff812cc33fa0 : 0xffffff801195b0ce 
+      Kernel Extensions in backtrace:
+         com.apple.driver.AppleIntelKBLGraphicsFramebuffer(12.0.4)[0E71EF1C-A01B-354E-987D-476E0029C6ED]@0xffffff7f94920000->0xffffff7f94b23fff
+            dependency: com.apple.iokit.IOPCIFamily(2.9)[7EA30FDD-A2FB-390F-99DD-42BC19691BB4]@0xffffff7f92295000
+            dependency: com.apple.iokit.IOACPIFamily(1.4)[99A8A054-9F64-3FB8-BB1D-5973F8AB04A1]@0xffffff7f92314000
+            dependency: com.apple.iokit.IOAcceleratorFamily2(404.2.2)[FA92A03C-F113-384A-9B1F-B2C52DE7F4D2]@0xffffff7f940dc000
+            dependency: com.apple.iokit.IOReportFamily(47)[75A625B5-0DEB-343A-A723-9D72533F098C]@0xffffff7f933b0000
+            dependency: com.apple.AppleGraphicsDeviceControl(3.28.4)[400C2E21-0880-36D7-AC5E-6B9BC885F158]@0xffffff7f93342000
+            dependency: com.apple.iokit.IOGraphicsFamily(530.14)[C5617AC3-A68D-36CE-AC22-7C7C81318961]@0xffffff7f92bd0000
+
+BSD process name corresponding to current thread: kernel_task
+Boot args: nv_disable=1 dart=0 -cdfon -disablegfxfirmware -igfxnohdmi lilucpu=9 
+
+Mac OS version:
+18C54
+
+Kernel version:
+Darwin Kernel Version 18.2.0: Mon Nov 12 20:24:46 PST 2018; root:xnu-4903.231.4~2/RELEASE_X86_64
+Kernel UUID: 56B30885-F9BA-30E8-AD1C-5D59EC243BA9
+Kernel slide:     0x0000000011600000
+Kernel text base: 0xffffff8011800000
+__HIB  text base: 0xffffff8011700000
+System model name: MacBook9,1 (Mac-9AE82516C7C6B903)
+
+System uptime in nanoseconds: 8251934965
+last loaded kext at 8249787774: com.apple.driver.AppleHV	1 (addr 0xffffff7f93f19000, size 57344)
+loaded kexts:
+(none)
+
+EOF

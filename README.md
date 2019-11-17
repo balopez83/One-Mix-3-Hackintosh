@@ -8,7 +8,6 @@ Thank you to Github user hellodeibu who's work on the GPD Pocket 2 helped me get
 If you are looking for GPD Pocket 2 macOS support you can access it here:
 (https://github.com/hellodeibu/gpd-pocket2-hackintosh)
 
-## Requested: If you have knowledge of DSDT/SSDT editing please reach out to me either on Github through an issue or the preferred method through my Discord handle @BALOPEZ
 
 ## Change Log
 

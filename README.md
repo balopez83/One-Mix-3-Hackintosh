@@ -1,8 +1,11 @@
 # One-Mix-3-Hackintosh
 This project attempts to bring MacOS to the One-Mix 3 &amp; 2s with Full Support
 
-If you can help fix any of the issues below I would greatly appreciate it. I believe some of these issues could be fairly easy to fix but will take the right person who knows just what the issue is. Please feel free to post any issues or questions and I will attempt to get to it as soon as I can.
+## End of Support
+Due to the layout of the Intel graphics on the OneMix 2s/3/3s being customized and non-standard I am unable to get the computer running with full graphics on High Sierra, Mojave, and Catalina. Because of these challenges that are beyond my ability to solve I will be discontinuing my work on this.
+I want to help others who may want to attempt to continue this and so I have uploaded all of my EFI attempts and configuration files. Please feel free to continue this research and I wish you luck getting this fully functional. If you would like I can post your EFI once its fully functional and add credits to you once its completed.
 
+## Credits
 Thank you to Github user hellodeibu who's work on the GPD Pocket 2 helped me get this far as well as many others in the Hackintosh community that shared their knowledge and experience through countless forums to make this possible.
 
 If you are looking for GPD Pocket 2 macOS support you can access it here:
@@ -20,7 +23,7 @@ If you are looking for GPD Pocket 2 macOS support you can access it here:
 ## OS Status
 
 - macOS Sierra:
-  * If you need to install to the internal NVME drive you will need to install the NVME driver included in the Clover install package, I will include this driver in future EFI uploads
+  * If you need to install to the internal NVME drive you will need to install the NVME driver included in the Clover install package.
   * Nearly perfect just some final touches as listed below
   ![Image of Sierra](https://github.com/balopez83/One-Mix-3-Hackintosh/blob/master/Images/AboutMacSierra.jpg?raw=true)
   ![Image of Sierra](https://github.com/balopez83/One-Mix-3-Hackintosh/blob/master/Images/SierraMultipleMonitor.png?raw=true)
@@ -32,8 +35,9 @@ If you are looking for GPD Pocket 2 macOS support you can access it here:
   * Can boot installer with this EFI using the instructions listed below but no iGPU graphics acceleration yet.
   * All other features working or WIP are listed below.
 
-- macOS Catalina (BETA):
-  * Unable to boot the installer without framebuffer errors or freezing. 
+- macOS Catalina:
+* Can boot installer with EFI v6 and invalid intel identifier using the instructions listed below but no iGPU graphics acceleration yet.
+* All other features working or WIP are listed below.
     
 
 ## Fully Functional
@@ -41,31 +45,29 @@ If you are looking for GPD Pocket 2 macOS support you can access it here:
 - Full hardware graphics acceleration (macOS Sierra Only)(High Sierra, Mojave, and Catalina not yet working)
 - Built-in speakers
 - Bluetooth
-- Battery reading and charging recognition
+- Battery reading and charging recognition (EFI v1,2, and 3 only)
 - Both USB-A 2.0 and the USB-C port 
 - CPU Temperature and voltage/wattage reading
 
 ## Non-Functional or Limited Funtion
 
-- Sleep mode (WIP)
+- Sleep mode (WIP, mostly working in EFI v4, 5, and 6)
 - Shutdown & Restart (hangs at black screen, should be a simple fix, WIP)(Sierra issue only)
 - Built-in microSD card reader (unless used as an installer or if you for some reason installed macOS on it)
 - Power Management (this is not fully functional yet though is working well enough for now, WIP)
 - USB-3.0 (temporarily functioning with USB limit patch, I will work on an SSDT patch for all OS versions later. WIP)
-- Touch Screen (I2C controller, there may be a possibility of getting this to work with 'voodooI2c.kext(s)' but this will need to be worked on after all other components fully enabled on macOS)
+- Touch Screen (I2C controller. This will work with 'voodooI2c.kext(s)' but this will need to be worked on after all other components fully enabled on macOS. I was able to get touch working partially on macOS Sierra for a few minutes but will require additional work. This will also require USB ports to be set up porperly)
 
 ## Likely never to work
 
 - Fingerprint sensor
 - Rotation of Clover boot menu (pretty sure this can't happen unless the developer adds this as a feature)
 
-## To-Do
+## To-Do (No longer working on this project)
 1. Fix items above with limited or no functionality
 2. Fix remaining errors in the DVMT and SSDT patches
-3. Fix graphics acceleration in Mojave and Catalina (URGENT)
+3. Fix graphics acceleration in Mojave and Catalina
 4. Fix Power Management and Screen Sleep
-5. Fix Clover boot menu rotation (likely need to wait for this feature to be added if ever)
-6. Create simplified install and set up process with simplified quick start guide.
 
 
 ## How to Hackintosh your One-Mix:

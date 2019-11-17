@@ -19,6 +19,7 @@ If you are looking for GPD Pocket 2 macOS support you can access it here:
 - New EFI uploaded to "EFI v2" folder (micro HDMI port, & USB-C external video supported with internal video working) tested on Sierra only, may not work yet on High Sierra, Mojave, or Catalina.
 - Project on Hold temporarily. I have had an issue with my One-Mix 3 and had to send it back to China for repair. Once I receive it back I will move forward with this project. If anyone has ideas on how to proceed or test please let me know and I will assist as much as I can. 
 - Project has been resumed. My computer is back and I am now able to continue work on this project.
+- End of Support: unable to resolve the custom Intel graphics layout and custom screen to boot with full graphics on High Sierra and newer.
 
 ## OS Status
 
@@ -36,8 +37,8 @@ If you are looking for GPD Pocket 2 macOS support you can access it here:
   * All other features working or WIP are listed below.
 
 - macOS Catalina:
-* Can boot installer with EFI v6 and invalid intel identifier using the instructions listed below but no iGPU graphics acceleration yet.
-* All other features working or WIP are listed below.
+  * Can boot installer with EFI v6 and invalid intel identifier using the instructions listed below but no iGPU graphics acceleration yet.
+  * All other features working or WIP are listed below.
     
 
 ## Fully Functional
